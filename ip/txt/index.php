@@ -29,7 +29,6 @@ $ip = getenv('REMOTE_ADDR');
 return $ip; 
 }
 
-
 $MyipAddress = getrealip();
 echo $MyipAddress;
 ?>
