@@ -1,5 +1,5 @@
 <?php
-function getrealip()
+function getip()
 {
  if (isset($_SERVER)){
 if(isset($_SERVER["HTTP_X_FORWARDED_FOR"])){
@@ -29,6 +29,6 @@ $ip = getenv('REMOTE_ADDR');
 return $ip; 
 }
 
-$ipAddress = getrealip();
+$ipAddress = getip();
 echo $ipAddress;
 ?>
