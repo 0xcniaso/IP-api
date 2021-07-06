@@ -1,2 +1,9 @@
 # IP API
-Une api en rapport avec les adresse IP codée en PHP
+
+## Getting your public ipv4 adress
+
+Simply do a GET request to the php file (This file need to be hosted on a web server)
+
+    https://example.com/ip/txt/index.php
+   
+And your public ipv4 adress will be returned as a string
